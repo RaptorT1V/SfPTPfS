@@ -1,0 +1,5 @@
+DB_NAME = "diagnostics_db"
+DB_USER = "admin"
+DB_PASSWORD = "admin"
+DB_HOST = "127.0.0.1"
+DB_PORT = "5432"
