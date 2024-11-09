@@ -1,5 +1,5 @@
 import psycopg2
-from time import sleep, time
+from time import sleep
 import random
 import threading
 from backend.settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
@@ -18,7 +18,7 @@ def connect_db():
     return conn
 
 
-# Агломерационная машина
+# – Агломерационная машина –
 def generate_sintering_machine_data(conn):
     cursor = conn.cursor()
 
@@ -40,7 +40,7 @@ def generate_sintering_machine_data(conn):
         sleep(1.5)
 
 
-# Доменная печь
+# – Доменная печь –
 def generate_blast_furnace_data(conn):
     cursor = conn.cursor()
 
@@ -62,7 +62,7 @@ def generate_blast_furnace_data(conn):
         sleep(1.5)
 
 
-# Гибкая модульная печь
+# – Гибкая модульная печь –
 def generate_flexible_modular_furnace_data(conn):
     cursor = conn.cursor()
 
@@ -84,7 +84,7 @@ def generate_flexible_modular_furnace_data(conn):
         sleep(1.5)
 
 
-# Паровой котёл среднего давления
+# – Паровой котёл среднего давления –
 def generate_medium_pressure_boiler_data(conn):
     cursor = conn.cursor()
 

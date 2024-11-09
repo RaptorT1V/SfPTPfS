@@ -1,0 +1,268 @@
+2024-11-08 21:22:55,476 - __main__ - INFO - Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\backend\static\plots
+2024-11-08 21:22:55,477 - __main__ - INFO - Static file routes mounted.
+2024-11-08 21:22:55,482 - __main__ - INFO - Router included.
+2024-11-08 21:22:55,534 - __main__ - INFO - Starting server...
+2024-11-08 21:23:24,874 - routes - INFO - Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 21:23:24,874 - routes - INFO - Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 21:23:24,960 - plot_utils - INFO - Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 21:26:30,867 - __main__ - INFO - Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\backend\static\plots
+2024-11-08 21:26:30,905 - __main__ - INFO - Static file routes mounted.
+2024-11-08 21:26:30,920 - __main__ - INFO - Router included.
+2024-11-08 21:26:30,989 - __main__ - INFO - Starting server...
+2024-11-08 21:26:50,039 - routes - INFO - Received request for plot: unit=blastfurnace, parameter=blast_pressure, start=2024-11-01, end=2024-11-02
+2024-11-08 21:26:50,039 - routes - INFO - Fetching data for unit=blastfurnace, parameter=blast_pressure, range=2024-11-01 to 2024-11-02
+2024-11-08 21:26:50,054 - plot_utils - INFO - Plotting graph for parameters: ['blast_pressure'] with format: png
+2024-11-08 21:30:31,709 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\backend\static\plots
+2024-11-08 21:30:31,709 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 21:30:31,715 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 21:30:31,767 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 21:30:44,942 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 21:30:44,943 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 21:30:44,959 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 21:32:10,824 - __main__ - INFO - [app.py]; Plot directory set up at D:\static\plots
+2024-11-08 21:32:19,657 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 21:32:30,154 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 21:32:37,447 - __main__ - INFO - [app.py]; Plot directory set up at D:\backend\static\plots
+2024-11-08 21:33:38,192 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 21:33:53,019 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\static\plots
+2024-11-08 21:34:00,811 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\static\plots
+2024-11-08 21:34:22,160 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\web-static\plots
+2024-11-08 21:34:33,179 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 21:58:38,256 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\backend\static\plots
+2024-11-08 21:58:38,256 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 21:58:38,262 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 21:58:38,312 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:00:26,127 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:00:26,127 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:00:26,132 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:00:26,182 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:01:06,342 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:01:06,343 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:01:06,349 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:01:06,402 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:01:26,796 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_pressure, start=2024-11-01, end=2024-11-02
+2024-11-08 22:01:26,797 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_pressure, range=2024-11-01 to 2024-11-02
+2024-11-08 22:01:26,820 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_pressure'] with format: png
+2024-11-08 22:06:35,860 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:06:35,861 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:06:35,866 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:06:35,916 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:06:51,808 - routes - INFO - [routes.py]; Received request for plot: unit=flexiblemodularfurnace, parameter=oxygen_flow_rate, start=2024-11-01, end=2024-11-02
+2024-11-08 22:06:51,809 - routes - INFO - [routes.py]; Fetching data for unit=flexiblemodularfurnace, parameter=oxygen_flow_rate, range=2024-11-01 to 2024-11-02
+2024-11-08 22:06:51,825 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['oxygen_flow_rate'] with format: png
+2024-11-08 22:08:55,626 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:08:55,627 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:08:55,632 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:08:55,686 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:09:03,630 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_flow_rate, start=2024-11-01, end=2024-11-02
+2024-11-08 22:09:03,630 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_flow_rate, range=2024-11-01 to 2024-11-02
+2024-11-08 22:09:03,645 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_flow_rate'] with format: png
+2024-11-08 22:10:18,475 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:10:18,476 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:10:18,481 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:10:18,530 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:10:18,821 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_flow_rate, start=2024-11-01, end=2024-11-02
+2024-11-08 22:10:18,822 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_flow_rate, range=2024-11-01 to 2024-11-02
+2024-11-08 22:10:18,841 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_flow_rate'] with format: png
+2024-11-08 22:12:55,176 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:12:55,177 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:12:55,182 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:12:55,232 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:13:12,214 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:13:12,214 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:13:12,219 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:13:12,270 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:13:23,197 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:13:23,197 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:13:23,212 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:13:23,630 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at backend/static/plots/multi_param_plot.png
+2024-11-08 22:15:11,647 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:15:11,647 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:15:11,652 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:15:11,700 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:15:25,355 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_pressure, start=2024-11-01, end=2024-11-02
+2024-11-08 22:15:25,355 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_pressure, range=2024-11-01 to 2024-11-02
+2024-11-08 22:15:25,378 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_pressure'] with format: png
+2024-11-08 22:15:25,812 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at backend/static/plots
+2024-11-08 22:15:25,817 - plot_utils - ERROR - [plot_utils.py]; Error saving plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:25,817 - plot_utils - ERROR - Error plotting graph: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:25,817 - routes - ERROR - Error generating plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:25,819 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_pressure, start=2024-11-01, end=2024-11-02
+2024-11-08 22:15:25,819 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_pressure, range=2024-11-01 to 2024-11-02
+2024-11-08 22:15:25,843 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_pressure'] with format: png
+2024-11-08 22:15:25,846 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at backend/static/plots
+2024-11-08 22:15:25,846 - plot_utils - ERROR - [plot_utils.py]; Error saving plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:25,846 - plot_utils - ERROR - Error plotting graph: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:25,847 - routes - ERROR - Error generating plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:59,842 - routes - INFO - [routes.py]; Received request for plot: unit=blastfurnace, parameter=blast_pressure, start=2024-11-01, end=2024-11-02
+2024-11-08 22:15:59,843 - routes - INFO - [routes.py]; Fetching data for unit=blastfurnace, parameter=blast_pressure, range=2024-11-01 to 2024-11-02
+2024-11-08 22:15:59,867 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['blast_pressure'] with format: png
+2024-11-08 22:15:59,870 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at backend/static/plots
+2024-11-08 22:15:59,870 - plot_utils - ERROR - [plot_utils.py]; Error saving plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:59,870 - plot_utils - ERROR - Error plotting graph: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:15:59,870 - routes - ERROR - Error generating plot: 
+Cannot infer image type from output path 'backend/static/plots'.
+Please add a file extension or specify the type using the format parameter.
+For example:
+
+    >>> import plotly.io as pio
+    >>> pio.write_image(fig, file_path, format='png')
+
+2024-11-08 22:16:09,799 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:16:09,799 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:16:09,804 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:16:09,854 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:16:54,982 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:16:54,982 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:16:54,997 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:16:55,398 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at backend/static/plots/multi_param_plot.png
+2024-11-08 22:19:36,591 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:19:36,592 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:19:36,597 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:19:36,649 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:19:44,177 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:19:44,177 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:19:44,196 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:19:44,634 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at /static/plots/multi_param_plot.png
+2024-11-08 22:20:10,167 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:20:10,167 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:20:10,172 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:20:10,231 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:20:18,673 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:20:18,673 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:20:18,691 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:20:19,104 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at /static/plots/multi_param_plot.png
+2024-11-08 22:24:45,921 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:24:45,923 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:24:45,936 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:24:46,003 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:25:09,002 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:25:09,003 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:25:09,019 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:25:09,100 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at /static/plots/multi_param_plot.png
+2024-11-08 22:27:57,172 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-08 22:27:57,173 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-08 22:27:57,188 - __main__ - INFO - [app.py]; Router included.
+2024-11-08 22:27:57,257 - __main__ - INFO - [app.py]; Starting server...
+2024-11-08 22:28:08,467 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-08 22:28:08,467 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-08 22:28:08,483 - routes - INFO - [routes.py]; Fetched data: [RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 57, 232106)), ('speed', 4.688081634170006)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 58, 786430)), ('speed', 4.802379360205765)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 0, 329571)), ('speed', 4.921542696966092)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 1, 874490)), ('speed', 5.02716974898794)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 3, 417670)), ('speed', 5.166351992896836)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 4, 960343)), ('speed', 5.263455906078681)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 6, 502604)), ('speed', 5.393161121342505)])]
+2024-11-08 22:28:08,483 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-08 22:28:08,562 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at /static/plots/multi_param_plot.png
+2024-11-09 14:32:51,813 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 14:32:51,814 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 14:32:51,819 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 14:32:51,891 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 14:33:48,328 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 14:33:48,329 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 14:33:48,334 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 14:33:48,397 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 14:38:07,409 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-09 14:38:07,409 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-09 14:38:07,430 - routes - INFO - [routes.py]; Fetched data: [RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 57, 232106)), ('speed', 4.688081634170006)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 58, 786430)), ('speed', 4.802379360205765)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 0, 329571)), ('speed', 4.921542696966092)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 1, 874490)), ('speed', 5.02716974898794)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 3, 417670)), ('speed', 5.166351992896836)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 4, 960343)), ('speed', 5.263455906078681)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 6, 502604)), ('speed', 5.393161121342505)])]
+2024-11-09 14:38:07,430 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-09 14:38:08,149 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at /static/plots/multi_param_plot.png
+2024-11-09 14:51:50,528 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 14:51:50,528 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 14:51:50,536 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 14:51:50,625 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 14:52:13,994 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-09 14:52:13,995 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-09 14:52:14,012 - routes - INFO - [routes.py]; Fetched data: [RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 57, 232106)), ('speed', 4.688081634170006)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 39, 58, 786430)), ('speed', 4.802379360205765)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 0, 329571)), ('speed', 4.921542696966092)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 1, 874490)), ('speed', 5.02716974898794)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 3, 417670)), ('speed', 5.166351992896836)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 4, 960343)), ('speed', 5.263455906078681)]), RealDictRow([('registered_value', datetime.datetime(2024, 11, 1, 17, 40, 6, 502604)), ('speed', 5.393161121342505)])]
+2024-11-09 14:52:14,012 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-09 14:52:14,645 - plot_utils - INFO - [plot_utils.py]; Attempting to save plot as png at D:\Study_and_work\Work\SfPTPfS\backend\static\plots\multi_param_plot.png
+2024-11-09 22:44:05,786 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 22:44:05,787 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 22:44:05,792 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 22:44:45,525 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 22:44:45,526 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 22:44:45,530 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 22:44:45,601 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 22:46:02,738 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 22:46:02,739 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 22:46:02,743 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 22:46:02,812 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 22:46:18,572 - routes - INFO - [routes.py]; Received request for plot: unit=sinteringmachine, parameter=speed, start=2024-11-01, end=2024-11-02
+2024-11-09 22:46:18,572 - routes - INFO - [routes.py]; Fetching data for unit=sinteringmachine, parameter=speed, range=2024-11-01 to 2024-11-02
+2024-11-09 22:46:18,635 - routes - INFO - [routes.py]; Fetched data: [RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 39, 57, 232106), 'speed': 4.688081634170006}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 39, 58, 786430), 'speed': 4.802379360205765}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 40, 0, 329571), 'speed': 4.921542696966092}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 40, 1, 874490), 'speed': 5.02716974898794}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 40, 3, 417670), 'speed': 5.166351992896836}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 40, 4, 960343), 'speed': 5.263455906078681}), RealDictRow({'registered_value': datetime.datetime(2024, 11, 1, 17, 40, 6, 502604), 'speed': 5.393161121342505})]
+2024-11-09 22:46:18,636 - plot_utils - INFO - [plot_utils.py]; Plotting graph for parameters: ['speed'] with format: png
+2024-11-09 22:46:18,646 - plot_utils - INFO - [plot_utils.py]; Successfully saved plot at D:\Study_and_work\Work\SfPTPfS\backend\backend\graphics\multi_param_plot.png
+2024-11-09 22:46:18,646 - routes - INFO - Generated plot at D:\Study_and_work\Work\SfPTPfS\backend\backend\graphics\multi_param_plot.png
+2024-11-09 22:46:18,646 - routes - INFO - [routes.py]; Received image path: D:\Study_and_work\Work\SfPTPfS\backend\backend\graphics\multi_param_plot.png
+2024-11-09 22:46:18,709 - routes - INFO - [routes.py]; Returning image response...
+2024-11-09 23:02:02,688 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 23:02:02,689 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 23:02:02,693 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 23:02:02,754 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 23:02:17,528 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241109_230217.svg
+2024-11-09 23:02:17,573 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241109_230217.svg
+2024-11-09 23:02:18,093 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241109_230218.svg
+2024-11-09 23:02:18,099 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241109_230218.svg
+2024-11-09 23:02:33,022 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230233.svg
+2024-11-09 23:02:33,028 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230233.svg
+2024-11-09 23:07:45,406 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-09 23:07:45,406 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-09 23:07:45,410 - __main__ - INFO - [app.py]; Router included.
+2024-11-09 23:07:45,472 - __main__ - INFO - [app.py]; Starting server...
+2024-11-09 23:07:51,165 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230751.svg
+2024-11-09 23:07:51,175 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230751.svg
+2024-11-09 23:09:12,829 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230912.svg
+2024-11-09 23:09:12,873 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230912.svg
+2024-11-09 23:09:40,632 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230940.svg
+2024-11-09 23:09:40,637 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230940.svg

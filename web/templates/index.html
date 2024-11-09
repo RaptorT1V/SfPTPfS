@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Graph</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Real-Time Graph of Parameter</h1>
+
+    <form id="graphForm">
+        <label for="unit">Choose Unit:</label>
+        <select id="unit" name="unit">
+            <!-- Агрегаты загружаются динамически -->
+        </select>
+
+        <label for="parameter">Choose Parameter:</label>
+        <select id="parameter" name="parameter">
+            <!-- Параметры загружаются динамически -->
+        </select>
+
+        <label for="start_time">Start Date:</label>
+        <input type="date" id="start_time" name="start_time">
+
+        <label for="end_time">End Date:</label>
+        <input type="date" id="end_time" name="end_time">
+
+        <button type="button" onclick="fetchGraph()">Generate Graph</button>
+    </form>
+
+    <div id="graph"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
