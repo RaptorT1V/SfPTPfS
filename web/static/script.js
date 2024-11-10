@@ -69,18 +69,18 @@ function closeModal() {
 }
 
 function validateTimestampInput(input) {
-    const timestampRegex = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/;
+    const timestampRegex = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/;
     return timestampRegex.test(input);
 }
 
 async function fetchGraph() {
     const unit = document.getElementById("unit").value;
     const parameter = document.getElementById("parameter").value;
-    const startTime = document.getElementById("start_time").value;
-    const endTime = document.getElementById("end_time").value;
+    const startTime = document.getElementById("start_time").value.replace(' ', 'T');
+    const endTime = document.getElementById("end_time").value.replace(' ', 'T');
 
     if (!validateTimestampInput(startTime) || !validateTimestampInput(endTime)) {
-        alert("Неверный формат даты и времени. Используйте формат YYYY-MM-DD HH:MM:SS");
+        alert("Неверный формат даты и времени. Используйте формат YYYY-MM-DDTHH:MM:SS");
         return;
     }
 
