@@ -12,14 +12,6 @@ PLOT_DIR = os.path.join(os.path.dirname(__file__), '..', 'graphics')
 os.makedirs(PLOT_DIR, exist_ok=True)
 
 def plot_graph(data, parameters: list, unit: str, parameter: str, format="svg"):
-    """
-    Построение графика.
-    :param data: Список данных для графика.
-    :param parameters: Список параметров.
-    :param unit: Агрегат.
-    :param parameter: Название параметра.
-    :param format: Формат графика (по умолчанию svg).
-    """
     try:
         # Генерация названия файла
         date_str = datetime.now().strftime("%Y%m%d_%H%M%S")

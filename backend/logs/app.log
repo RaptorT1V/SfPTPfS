@@ -294,3 +294,65 @@ For example:
 2024-11-10 12:26:11,399 - __main__ - INFO - [app.py]; Starting server...
 2024-11-10 13:19:18,144 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_131918.svg
 2024-11-10 13:19:18,193 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_131918.svg
+2024-11-10 13:32:56,802 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_133256.svg
+2024-11-10 13:32:56,861 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_133256.svg
+2024-11-10 13:34:19,024 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_133419.svg
+2024-11-10 13:34:19,033 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_133419.svg
+2024-11-10 13:53:17,421 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 13:53:17,421 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 13:53:17,423 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 13:53:17,486 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 13:55:05,291 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241110_135505.svg
+2024-11-10 13:55:05,299 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241110_135505.svg
+2024-11-10 15:07:05,527 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_150705.svg
+2024-11-10 15:07:05,573 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_150705.svg
+2024-11-10 15:07:27,493 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_150727.svg
+2024-11-10 15:07:27,574 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_150727.svg
+2024-11-10 15:08:24,279 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 15:08:24,279 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 15:08:24,281 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 15:08:24,343 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 15:08:42,166 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\mediumpressureboiler_pressure_20241110_150842.svg
+2024-11-10 15:08:42,174 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\mediumpressureboiler_pressure_20241110_150842.svg
+2024-11-10 15:08:54,793 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\mediumpressureboiler_pressure_20241110_150854.svg
+2024-11-10 15:08:54,828 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\mediumpressureboiler_pressure_20241110_150854.svg
+2024-11-10 15:09:48,172 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 15:09:48,172 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 15:09:48,175 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 15:09:48,225 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 15:10:08,938 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\flexiblemodularfurnace_argon_flow_rate_20241110_151008.svg
+2024-11-10 15:10:08,946 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\flexiblemodularfurnace_argon_flow_rate_20241110_151008.svg
+2024-11-10 15:28:53,317 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 15:28:53,317 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 15:28:53,320 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 15:28:53,379 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 15:30:18,605 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241110_153018.svg
+2024-11-10 15:30:18,606 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 15:57:08,264 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 15:57:08,264 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 15:57:08,267 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 15:57:08,314 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 15:57:17,350 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 16:05:14,035 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 16:14:16,109 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 16:14:46,702 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:14:46,703 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:14:46,706 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:14:46,756 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:15:07,898 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_161507.svg
+2024-11-10 16:15:07,983 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_161507.svg
+2024-11-10 16:20:47,007 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:20:47,007 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:20:47,010 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:20:47,068 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:21:21,173 - plot_utils - ERROR - Ошибка построения графика: strptime() argument 1 must be str, not datetime.datetime
+2024-11-10 16:22:40,077 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:22:40,078 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:22:40,083 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:22:40,168 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:22:56,024 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 16:23:37,961 - plot_utils - ERROR - Ошибка построения графика: fromisoformat: argument must be str
+2024-11-10 16:27:52,377 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:27:52,378 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:27:52,380 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:27:52,433 - __main__ - INFO - [app.py]; Starting server...

@@ -51,9 +51,13 @@ async def stop_generator_route():
  # – Графики –
 @router.get("/plot/{unit}/{parameter}")
 async def get_plot(unit: str, parameter: str, start_time: str, end_time: str):
+    if start_time >= end_time or end_time <= start_time:
+        raise HTTPException(status_code=400, detail="Дата начала не может быть позднее даты конца или наоборот.")
+
     data = get_data_from_table(unit, parameter, start_time, end_time)
+
     if not data:
-        raise HTTPException(status_code=404, detail="Данные отсутствуют")
+        raise HTTPException(status_code=404, detail="Данные за указанный период отсутствуют.")
 
     plot_path = plot_graph(data, [parameter], unit=unit, parameter=parameter, format="svg")
     return FileResponse(plot_path, media_type="image/svg+xml")
