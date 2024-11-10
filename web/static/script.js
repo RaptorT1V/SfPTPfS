@@ -85,7 +85,7 @@ async function fetchGraph() {
     }
 
     try {
-        const response = await fetch(/plot/${unit}/${parameter}?start_time=${startTime}&end_time=${endTime});
+        const response = await fetch(`/plot/${unit}/${parameter}?start_time=${startTime}&end_time=${endTime}`);
         if (!response.ok) {
             const errorData = await response.json();
             throw new Error(errorData.detail);
@@ -93,7 +93,7 @@ async function fetchGraph() {
         const svgContent = await response.text();
         showModal(svgContent);
     } catch (error) {
-        alert(Ошибка: ${error.message});
+        alert(`Ошибка: ${error.message}`);
         console.error('Console error! Error fetching graph:', error);
     }
 }
