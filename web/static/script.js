@@ -35,6 +35,7 @@ async function loadUnits() {
             option.textContent = unit;
             unitSelect.appendChild(option);
         });
+        loadParameters();
     } catch (error) {
         console.error("Error loading units:", error);
     }

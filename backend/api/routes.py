@@ -101,7 +101,7 @@ async def websocket_plot(websocket: WebSocket, unit: str, parameter: str):
         data = get_data_from_table(unit, parameter, start_time=get_newest_timestamp(unit))
         await websocket.send_json(data)
         await asyncio.sleep(2)
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
  # – Данные датчиков –
 @router.get("/data/{table_name}")
 async def get_sensor_data(table_name: str):

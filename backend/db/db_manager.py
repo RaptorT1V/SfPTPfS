@@ -76,7 +76,9 @@ def get_column_names(table_name: str):
         cursor = conn.cursor()
         cursor.execute(f"SELECT column_name FROM information_schema.columns WHERE table_name = %s", (table_name,))
         columns = [row[0] for row in cursor.fetchall()]
-        return columns
+
+        filtered_columns = [col for col in columns if col not in ('value_id', 'registered_value')]
+        return filtered_columns
     finally:
         cursor.close()
         conn.close()
