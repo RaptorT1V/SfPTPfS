@@ -266,3 +266,29 @@ For example:
 2024-11-09 23:09:12,873 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230912.svg
 2024-11-09 23:09:40,632 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230940.svg
 2024-11-09 23:09:40,637 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_pressure_20241109_230940.svg
+2024-11-10 11:14:53,980 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 11:14:53,982 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 11:14:53,984 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 11:14:54,046 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 11:35:00,839 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 11:35:00,840 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 11:35:00,842 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 11:35:00,904 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 11:35:21,757 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_113521.svg
+2024-11-10 11:35:21,803 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_113521.svg
+2024-11-10 11:41:40,577 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 11:41:40,577 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 11:41:40,579 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 11:41:40,628 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 11:47:30,212 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_114730.svg
+2024-11-10 11:47:30,220 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_114730.svg
+2024-11-10 11:47:49,307 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_114749.svg
+2024-11-10 11:47:49,313 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\sinteringmachine_speed_20241110_114749.svg
+2024-11-10 12:17:43,001 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 12:17:43,010 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 12:17:43,016 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 12:17:43,215 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 12:26:11,328 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 12:26:11,328 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 12:26:11,331 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 12:26:11,399 - __main__ - INFO - [app.py]; Starting server...

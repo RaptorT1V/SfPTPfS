@@ -8,29 +8,35 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
-    <h1>Real-Time Graph of Parameter</h1>
+    <div class="container">
+        <div class="left-pane">
+            <h1>Generator control panel</h1>
+            <div id="generatorStatus">Generator is sleeping</div>
+            <button id="generatorToggle" onclick="toggleGenerator()">Start generator</button>
+        </div>
+        <div class="right-pane">
+            <h1>SfPTPfS</h1>
+            <form id="graphForm">
+                <label for="unit">Choose Unit:</label>
+                <select id="unit" name="unit" onchange="loadParameters()"></select>
+                <label for="parameter">Choose Parameter:</label>
+                <select id="parameter" name="parameter"></select>
+                <label for="start_time">Start Date & Time:</label>
+                <input type="datetime-local" id="start_time" name="start_time">
+                <label for="end_time">End Date & Time:</label>
+                <input type="datetime-local" id="end_time" name="end_time">
+                <button type="button" onclick="fetchGraph()">Generate Graph</button>
+            </form>
+            <div id="graph"></div>
+        </div>
+    </div>
 
-    <form id="graphForm">
-        <label for="unit">Choose Unit:</label>
-        <select id="unit" name="unit">
-            <!-- Агрегаты загружаются динамически -->
-        </select>
-
-        <label for="parameter">Choose Parameter:</label>
-        <select id="parameter" name="parameter">
-            <!-- Параметры загружаются динамически -->
-        </select>
-
-        <label for="start_time">Start Date:</label>
-        <input type="date" id="start_time" name="start_time">
-
-        <label for="end_time">End Date:</label>
-        <input type="date" id="end_time" name="end_time">
-
-        <button type="button" onclick="fetchGraph()">Generate Graph</button>
-    </form>
-
-    <div id="graph"></div>
+    <div id="graphModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalGraph"></div>
+        </div>
+    </div>
 
     <script src="/static/script.js"></script>
 </body>

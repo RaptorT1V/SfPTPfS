@@ -58,7 +58,7 @@ async def get_plot(unit: str, parameter: str, start_time: str, end_time: str):
     plot_path = plot_graph(data, [parameter], unit=unit, parameter=parameter, format="svg")
     return FileResponse(plot_path, media_type="image/svg+xml")
 
-
+"""
 @router.get("/plot/multi/{unit}")
 async def get_multi_plot(unit: str,
                          parameters: list,
@@ -80,7 +80,7 @@ async def get_multi_plot(unit: str,
     except Exception as e:
         print(f"Error generating plot: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
+"""
 
  # – Web –
 @router.get("/", response_class=HTMLResponse)

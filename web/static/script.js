@@ -1,4 +1,28 @@
-// Загрузка агрегатов
+async function toggleGenerator() {
+    const generatorStatus = document.getElementById('generatorStatus');
+    const isRunning = generatorStatus.classList.contains('active');
+    const endpoint = isRunning ? 'stop' : 'start';
+
+    try {
+        const response = await fetch(`/generator/${endpoint}`, { method: 'POST' });
+        if (response.ok) {
+            if (isRunning) {
+                generatorStatus.textContent = 'Generator is sleeping';
+                generatorStatus.classList.remove('active');
+                generatorStatus.classList.add('sleeping');
+                document.getElementById('generatorToggle').textContent = 'Start generator';
+            } else {
+                generatorStatus.textContent = 'Generator is active';
+                generatorStatus.classList.remove('sleeping');
+                generatorStatus.classList.add('active');
+                document.getElementById('generatorToggle').textContent = 'Stop generator';
+            }
+        }
+    } catch (error) {
+        alert('Ошибка соединения с сервером');
+    }
+}
+
 async function loadUnits() {
     try {
         const response = await fetch("/units");
@@ -16,7 +40,6 @@ async function loadUnits() {
     }
 }
 
-// Загрузка параметров
 async function loadParameters() {
     const unit = document.getElementById("unit").value;
     try {
@@ -36,6 +59,15 @@ async function loadParameters() {
     }
 }
 
+function showModal(graphData) {
+    document.getElementById('modalGraph').innerHTML = graphData;
+    document.getElementById('graphModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('graphModal').style.display = 'none';
+}
+
 async function fetchGraph() {
     const unit = document.getElementById("unit").value;
     const parameter = document.getElementById("parameter").value;
@@ -47,12 +79,11 @@ async function fetchGraph() {
         if (!response.ok) {
             throw new Error(`Failed to generate plot. Error: ${response.statusText}`);
         }
-
-        const svgContent = await response.text(); // Получаем SVG-код
-        document.getElementById("graph").innerHTML = svgContent; // Вставляем SVG прямо в HTML
+        const svgContent = await response.text();
+        showModal(svgContent);
     } catch (error) {
-        console.error('Error fetching graph:', error);
-        alert("Error generating graph.");
+        console.error('Console error! Error fetching graph:', error);
+        alert("Alert! Error generating graph.");
         document.getElementById("graph").innerHTML = `<p>Error loading graph.</p>`;
     }
 }
