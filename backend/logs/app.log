@@ -292,3 +292,5 @@ For example:
 2024-11-10 12:26:11,328 - __main__ - INFO - [app.py]; Static file routes mounted.
 2024-11-10 12:26:11,331 - __main__ - INFO - [app.py]; Router included.
 2024-11-10 12:26:11,399 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 13:19:18,144 - plot_utils - INFO - Создаём график: D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_131918.svg
+2024-11-10 13:19:18,193 - plot_utils - INFO - График сохранён в D:\Study_and_work\Work\SfPTPfS\backend\api\..\graphics\blastfurnace_blast_flow_rate_20241110_131918.svg
