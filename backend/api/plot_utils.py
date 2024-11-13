@@ -10,6 +10,7 @@ PLOT_DIR = os.path.join(os.path.dirname(__file__), '..', 'graphics')
 os.makedirs(PLOT_DIR, exist_ok=True)
 
 
+# Форматирование единиц времени на оси OX в зависимости от условий
 def format_time_label(registered_time, start_time, end_time):
     time_span = end_time - start_time
 
@@ -23,6 +24,7 @@ def format_time_label(registered_time, start_time, end_time):
         return registered_time.strftime('%m-%d %H:%M')  # Месяц-День Часы:Минуты
 
 
+# Генерация названия графика в зависимости от условий
 def generate_title(unit, parameter, start_time, end_time):
     start_date = start_time.strftime('%m-%d')
     end_date = end_time.strftime('%m-%d')
@@ -37,6 +39,7 @@ def generate_title(unit, parameter, start_time, end_time):
         return f"График параметра {parameter} в {unit} с {start_time.strftime('%Y-%m-%d %H:%M:%S')} по {end_time.strftime('%Y-%m-%d %H:%M:%S')}"
 
 
+# Определение макс. кол-ва делений в зависимости от единиц времени
 def determine_max_ticks(start_time, end_time):
     time_span = end_time - start_time
     if time_span <= timedelta(minutes=1):
@@ -49,13 +52,12 @@ def determine_max_ticks(start_time, end_time):
         return 8  # Для дней
 
 
+# Оптимальное деление шкалы OX при крупных метках
 def adjust_ticks(data_length, max_ticks):
-    """
-    Оптимально делит шкалу OX для крупных меток с учетом общей длины данных.
-    """
     return max(1, data_length // max_ticks)
 
 
+# Построение графика
 def plot_graph(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         if isinstance(data[0]['registered_value'], datetime):

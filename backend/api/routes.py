@@ -86,6 +86,7 @@ async def get_multi_plot(unit: str,
         raise HTTPException(status_code=500, detail=str(e))
 """
 
+
  # – Web –
 @router.get("/", response_class=HTMLResponse)
 async def read_index():
@@ -101,6 +102,7 @@ async def websocket_plot(websocket: WebSocket, unit: str, parameter: str):
         data = get_data_from_table(unit, parameter, start_time=get_newest_timestamp(unit))
         await websocket.send_json(data)
         await asyncio.sleep(2)
+
 
  # – Данные датчиков –
 @router.get("/data/{table_name}")
