@@ -22,7 +22,7 @@ def connect_db():
 def generate_sintering_machine_data(conn):
     cursor = conn.cursor()
 
-    charge_temperature = 2  # температура шихты (С°)
+    charge_temperature = 20  # температура шихты (С°)
     speed = 2  # скорость (м/мин)
     rarefaction = 200  # разрежение (мм. вод. ст.)
 
