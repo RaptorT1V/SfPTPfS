@@ -45,7 +45,7 @@ def generate_blast_furnace_data(conn):
     cursor = conn.cursor()
 
     blast_flow_rate = 2000  # объёмный расход дутья (м³/мин)
-    blast_pressure = 2 # давление дутья (кгс/см²)
+    blast_pressure = 2.5 # давление дутья (кгс/см²)
     natural_gas_flow_rate = 6000  # объёмный расход природного газа (м³/час)
 
     while not stop_signal:
