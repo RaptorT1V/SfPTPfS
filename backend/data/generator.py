@@ -27,9 +27,9 @@ def generate_sintering_machine_data(conn):
     rarefaction = 190  # разрежение (мм. вод. ст.)
 
     while not stop_signal:
-        charge_temperature += random.uniform(-1.0, 1.125)
-        speed += random.uniform(-0.1, 0.1125)
-        rarefaction += random.uniform(-10, 11.25)
+        charge_temperature += random.uniform(-1.0, 1.0625)
+        speed += random.uniform(-0.1, 0.10625)
+        rarefaction += random.uniform(-10, 10.625)
 
         cursor.execute("""
             INSERT INTO sinteringMachine (charge_temperature, speed, rarefaction)
@@ -49,9 +49,9 @@ def generate_blast_furnace_data(conn):
     natural_gas_flow_rate = 5800  # объёмный расход природного газа (м³/час)
 
     while not stop_signal:
-        blast_flow_rate += random.uniform(-100, 112.5)
-        blast_pressure += random.uniform(-0.1, 0.1125)
-        natural_gas_flow_rate += random.uniform(-300, 337.5)
+        blast_flow_rate += random.uniform(-100, 106.25)
+        blast_pressure += random.uniform(-0.1, 0.10625)
+        natural_gas_flow_rate += random.uniform(-300, 318.75)
 
         cursor.execute("""
             INSERT INTO blastFurnace (blast_flow_rate, blast_pressure, natural_gas_flow_rate)
@@ -71,9 +71,9 @@ def generate_flexible_modular_furnace_data(conn):
     power = 17123  # мощность (кВт/ч)
 
     while not stop_signal:
-        argon_flow_rate += random.uniform(-20, 22.5)
-        oxygen_flow_rate += random.uniform(-50, 62.5)
-        power += random.uniform(-1000, 1125)
+        argon_flow_rate += random.uniform(-20, 21.25)
+        oxygen_flow_rate += random.uniform(-50, 53.125)
+        power += random.uniform(-1000, 1062.5)
 
         cursor.execute("""
             INSERT INTO flexibleModularFurnace (argon_flow_rate, oxygen_flow_rate, power)
@@ -93,9 +93,9 @@ def generate_medium_pressure_boiler_data(conn):
     steam_output = 54  # выработка пара (т/ч)
 
     while not stop_signal:
-        temperature += random.uniform(-5, 6.25)
-        pressure += random.uniform(-0.2, 0.125)
-        steam_output += random.uniform(-3, 3.375)
+        temperature += random.uniform(-5, 5.3125)
+        pressure += random.uniform(-0.2, 0.2125)
+        steam_output += random.uniform(-3, 3.1875)
 
         cursor.execute("""
             INSERT INTO mediumPressureBoiler (temperature, pressure, steam_output)
