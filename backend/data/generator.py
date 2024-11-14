@@ -22,9 +22,9 @@ def connect_db():
 def generate_sintering_machine_data(conn):
     cursor = conn.cursor()
 
-    charge_temperature = 20  # температура шихты (С°)
-    speed = 2.3  # скорость (м/мин)
-    rarefaction = 190  # разрежение (мм. вод. ст.)
+    charge_temperature = 2  # температура шихты (С°)
+    speed = 2  # скорость (м/мин)
+    rarefaction = 200  # разрежение (мм. вод. ст.)
 
     while not stop_signal:
         charge_temperature += random.uniform(-1.0, 1.0625)
@@ -44,9 +44,9 @@ def generate_sintering_machine_data(conn):
 def generate_blast_furnace_data(conn):
     cursor = conn.cursor()
 
-    blast_flow_rate = 2100  # объёмный расход дутья (м³/мин)
-    blast_pressure = 2.5  # давление дутья (кгс/см²)
-    natural_gas_flow_rate = 5800  # объёмный расход природного газа (м³/час)
+    blast_flow_rate = 2000  # объёмный расход дутья (м³/мин)
+    blast_pressure = 2 # давление дутья (кгс/см²)
+    natural_gas_flow_rate = 6000  # объёмный расход природного газа (м³/час)
 
     while not stop_signal:
         blast_flow_rate += random.uniform(-100, 106.25)
@@ -66,9 +66,9 @@ def generate_blast_furnace_data(conn):
 def generate_flexible_modular_furnace_data(conn):
     cursor = conn.cursor()
 
-    argon_flow_rate = 555  # объёмный расход аргона (л/мин)
-    oxygen_flow_rate = 999  # объёмный расход кислорода (м³/ч)
-    power = 17123  # мощность (кВт/ч)
+    argon_flow_rate = 400  # объёмный расход аргона (л/мин)
+    oxygen_flow_rate = 1000  # объёмный расход кислорода (м³/ч)
+    power = 20000  # мощность (кВт/ч)
 
     while not stop_signal:
         argon_flow_rate += random.uniform(-20, 21.25)
@@ -89,8 +89,8 @@ def generate_medium_pressure_boiler_data(conn):
     cursor = conn.cursor()
 
     temperature = 100  # температура (С°)
-    pressure = 3.9  # давление (МПа)
-    steam_output = 54  # выработка пара (т/ч)
+    pressure = 4  # давление (МПа)
+    steam_output = 60  # выработка пара (т/ч)
 
     while not stop_signal:
         temperature += random.uniform(-5, 5.3125)
