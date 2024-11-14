@@ -77,6 +77,7 @@ function validateTimestampInput(input) {
 async function fetchGraph() {
     const unit = document.getElementById("unit").value;
     const parameter = document.getElementById("parameter").value;
+    const graphType = document.getElementById("graphType").value;
     const startTime = document.getElementById("start_time").value.replace(' ', 'T');
     const endTime = document.getElementById("end_time").value.replace(' ', 'T');
 
@@ -86,7 +87,7 @@ async function fetchGraph() {
     }
 
     try {
-        const response = await fetch(`/plot/${unit}/${parameter}?start_time=${startTime}&end_time=${endTime}`);
+        const response = await fetch(`/plot/${unit}/${parameter}/${graphType}?start_time=${startTime}&end_time=${endTime}`);
         if (!response.ok) {
             const errorData = await response.json();
             throw new Error(errorData.detail);
