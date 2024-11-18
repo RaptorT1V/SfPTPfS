@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SfPTPfS</title>
+    <link rel="stylesheet" href="/static/SfPTPfS.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <!--  <div id="loader" class="loader"></div>  -->
+    <div class="container">
+        <div class="left-pane">
+            <h1>Generator control panel</h1>
+            <div id="generatorStatus">Generator is sleeping</div>
+            <button id="generatorToggle" onclick="toggleGenerator()">Start generator</button>
+        </div>
+        <div class="right-pane">
+            <h1>SfPTPfS</h1>
+            <form id="graphForm">
+                <label for="unit">Choose unit: (выберите агрегат)</label>
+                <select id="unit" name="unit" onchange="loadParameters()"></select>
+
+                <label for="parameter">Choose parameter: (выберите параметр)</label>
+                <select id="parameter" name="parameter"></select>
+
+                <label for="graphType">Choose plot type: (выберите тип графика)</label>
+                <select id="graphType" name="graphType">
+                    <option value="linear">Линейный график</option>
+                    <option value="moving_avg">Скользящее среднее</option>
+                    <option value="trend_line">Линия тренда</option>
+                    <option value="derivative">График производной</option>
+                    <option value="fft">График спектра</option>
+                    <option value="histogram">Гистограмма распределения значений</option>
+                    <option value="heatmap">Карта тепловых зон</option>
+                    <option value="scatter">Диаграмма рассеяния</option>
+                </select>
+
+                <label for="start_time">Start Date & Time: (дата начала и время)</label>
+                <input type="text" id="start_time" name="start_time" placeholder="Select start time">
+
+                <label for="end_time">End Date & Time: (дата конца и время)</label>
+                <input type="text" id="end_time" name="end_time" placeholder="Select end time">
+
+                <button type="button" onclick="fetchGraph()">Generate plot</button>
+            </form>
+            <div id="graph"></div>
+        </div>
+    </div>
+
+    <!--  <div id="overlay" class="overlay"></div>  -->
+
+    <div id="graphModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalGraph"></div>
+        </div>
+    </div>
+
+    <script src="/static/SfPTPfS.js"></script>
+</body>
+</html>
