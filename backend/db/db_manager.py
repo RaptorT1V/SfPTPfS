@@ -19,6 +19,7 @@ def get_db_connection():
         return None
 
 
+ # – Для оффлайн-плоттинга –
 def get_data_from_table(table_name: str, parameter: str, start_time: Optional[str] = None, end_time: Optional[str] = None) -> List[Dict]:
     conn = get_db_connection()
     if not conn:
@@ -51,6 +52,54 @@ def get_data_from_table(table_name: str, parameter: str, start_time: Optional[st
         conn.close()
 
 
+ # – Для real-time мониторинга –
+def get_all_data(table_name: str, parameter: str) -> List[Dict]:
+    conn = get_db_connection()
+    if not conn:
+        return []
+
+    try:
+        cursor = conn.cursor(cursor_factory=RealDictCursor)
+        query = f"SELECT registered_value, {parameter} FROM {table_name} ORDER BY registered_value ASC;"
+        cursor.execute(query)
+        data = cursor.fetchall()
+        return data
+
+    except psycopg2.Error as e:
+        print(f"Error fetching all data: {e}")
+        return []
+
+    finally:
+        cursor.close()
+        conn.close()
+
+
+def get_latest_data(table_name: str, parameter: str) -> Optional[Dict]:
+    conn = get_db_connection()
+    if not conn:
+        return None
+
+    try:
+        cursor = conn.cursor(cursor_factory=RealDictCursor)
+        query = f"""
+            SELECT registered_value, {parameter}
+            FROM {table_name}
+            ORDER BY registered_value DESC
+            LIMIT 1;
+        """
+        cursor.execute(query)
+        return cursor.fetchone()
+
+    except psycopg2.Error as e:
+        print(f"Error fetching latest data: {e}")
+        return None
+
+    finally:
+        cursor.close()
+        conn.close()
+
+
+# – Подвязываем агрегаты и их параметры соответственно –
 def get_table_names():
     conn = get_db_connection()
     if not conn:

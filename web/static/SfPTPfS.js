@@ -7,12 +7,12 @@ async function toggleGenerator() {
         const response = await fetch(`/generator/${endpoint}`, { method: 'POST' });
         if (response.ok) {
             if (isRunning) {
-                generatorStatus.textContent = 'Generator is sleeping';
+                generatorStatus.textContent = 'Generator is resting';
                 generatorStatus.classList.remove('active');
                 generatorStatus.classList.add('sleeping');
                 document.getElementById('generatorToggle').textContent = 'Start generator';
             } else {
-                generatorStatus.textContent = 'Generator is active';
+                generatorStatus.textContent = 'Generator is working';
                 generatorStatus.classList.remove('sleeping');
                 generatorStatus.classList.add('active');
                 document.getElementById('generatorToggle').textContent = 'Stop generator';
@@ -63,10 +63,12 @@ async function loadParameters() {
 function showModal(graphData) {
     document.getElementById('modalGraph').innerHTML = graphData;
     document.getElementById('graphModal').style.display = 'block';
+    document.querySelector(".container").classList.add("blurred-content");
 }
 
 function closeModal() {
     document.getElementById('graphModal').style.display = 'none';
+    document.querySelector(".container").classList.remove("blurred-content");
 }
 
 function validateTimestampInput(input) {

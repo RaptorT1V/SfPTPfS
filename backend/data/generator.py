@@ -4,6 +4,7 @@ import random
 import threading
 from backend.settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 
+
 stop_signal = False
 
 

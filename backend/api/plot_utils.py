@@ -194,11 +194,11 @@ def plot_trend_line(data, parameters: list, unit: str, parameter: str, format="s
     try:
         values = [item[parameter] for item in data]
 
-        trend_type = random.choice(['linear', 'exponential'])
-        if trend_type == 'linear':
+        trend_type = random.choice(['линейная', 'экспоненциальная'])
+        if trend_type == 'линейная':
             slope, intercept = np.polyfit(range(len(values)), values, 1)
             trend_line = [slope * x + intercept for x in range(len(values))]
-        else:  # exponential
+        else:  # экспоненциальная
             trend_line = [values[0] * (1.05 ** i) for i in range(len(values))]
 
         plot_type = f"Линия тренда ({trend_type.capitalize()})"

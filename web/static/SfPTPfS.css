@@ -6,7 +6,7 @@
 /* === Основные стили === */
 body {
     font-family: 'Fjalla One', sans-serif;
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg') no-repeat center center fixed;
+    background: url('SfPTPfS_back.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     display: flex;
@@ -15,10 +15,12 @@ body {
     min-height: 100vh;
 }
 
+
 /* === Заголовки === */
 h1 {
     text-align: center;
 }
+
 
 /* === Статус генератора === */
 #generatorStatus {
@@ -87,6 +89,7 @@ h1 {
     }
 }
 
+
 /* === Контейнеры === */
 .container {
     display: flex;
@@ -97,6 +100,7 @@ h1 {
     height: 80vh;
     width: 80vw;
 }
+
 
 /* === Левый и правый блоки === */
 .left-pane, .right-pane {
@@ -114,6 +118,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+
 /* === Формы === */
 form {
     display: flex;
@@ -125,6 +130,7 @@ form {
     background: rgba(245, 245, 245, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 /* === Кнопки === */
 button {
@@ -151,6 +157,7 @@ button:hover {
     text-align: center;
 }
 
+
 /* === Поля ввода и выбора === */
 input, select {
     padding: 10px;
@@ -165,11 +172,12 @@ input:focus, select:focus {
     outline: none;
 }
 
+
 /* === Модальное окно === */
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -189,6 +197,21 @@ input:focus, select:focus {
     width: 75%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+}
+
+.blurred-content {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
 }
 
 .close {
