@@ -57,12 +57,49 @@ function startRealtimeGraph() {
                 borderColor: 'rgba(75, 192, 192, 1)',
                 tension: 0.1
             }]
+        },
+        options: {
+            plugins: {
+                zoom: {
+                    zoom: {
+                        wheel: {
+                            enabled: true, // Включить масштабирование колесом мыши
+                        },
+                        pinch: {
+                            enabled: true // Включить масштабирование жестами
+                        },
+                        mode: 'x', // Масштабировать по оси X
+                    },
+                    pan: {
+                        enabled: true, // Включить прокрутку
+                        mode: 'x', // Прокручивать по оси X
+                    }
+                }
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    type: 'time',
+                    time: {
+                        tooltipFormat: 'yyyy-MM-dd HH:mm:ss',
+                        displayFormats: {
+                            second: 'HH:mm:ss',
+                            minute: 'HH:mm'
+                        }
+                    }
+                }
+            }
         }
     });
 
     ws = new WebSocket(`ws://${window.location.host}/ws/${unit}/${parameter}`);
     ws.onmessage = (event) => {
+        console.log("WebSocket message received:", event.data);
         const { time, value } = JSON.parse(event.data);
+        console.log("Parsed data:", { time, value });
+
+        console.log("Received data:", { time, value });
 
         chart.data.labels.push(time);
         chart.data.datasets[0].data.push(value);

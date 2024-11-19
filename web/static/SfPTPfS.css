@@ -19,6 +19,8 @@ body {
 /* === Заголовки === */
 h1 {
     text-align: center;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 0px 3px 0px;
 }
 
 
@@ -29,6 +31,8 @@ h1 {
     text-decoration: underline;
     text-underline-position: under;
     transition: color 0.5s ease, text-shadow 0.5s ease;
+    padding: 5px 0px 2px 0px;
+    margin: 5px 0px 3px 0px;
 }
 
 #generatorStatus.sleeping {
@@ -105,7 +109,8 @@ h1 {
 /* === Левый и правый блоки === */
 .left-pane, .right-pane {
     flex: 1;
-    padding: 30px;
+    padding: 15px 25px 15px 25px;
+    margin: 0px 0px 0px 0px;
     border: 1px solid #ddd;
 }
 

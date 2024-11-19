@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Real-time monitoring</title>
+    <title>Real-time Monitoring</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
     <link rel="stylesheet" href="/static/monitoring.css">
 </head>
 <body>
     <h1>Мониторинг данных в "прямом эфире"</h1>
-        <label for="unit">Выберите <u>агрегат</u>:</label>
+    <label for="unit">Выберите <u>агрегат</u>:</label>
     <select id="unit" onchange="loadParameters()"></select>
 
     <label for="parameter">Выберите <u>параметр</u>:</label>
