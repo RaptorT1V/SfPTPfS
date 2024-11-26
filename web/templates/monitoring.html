@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Real-time Monitoring</title>
+    <link rel="icon" href="/static/ico/monitoring.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
-    <link rel="stylesheet" href="/static/monitoring.css">
+    <link rel="stylesheet" href="/static/css/monitoring.css">
 </head>
 <body>
-    <h1>Мониторинг данных в "прямом эфире"</h1>
+    <h1>Real-time Monitoring</h1>
     <label for="unit">Выберите <u>агрегат</u>:</label>
     <select id="unit" onchange="loadParameters()"></select>
 
     <label for="parameter">Выберите <u>параметр</u>:</label>
     <select id="parameter" onchange="startRealtimeGraph()"></select>
 
-    <canvas id="realtimeChart" width="800" height="400"></canvas>
+    <div class="canvas-container">
+        <canvas id="realtimeChart"></canvas>
+    </div>
 
-    <script src="/static/monitoring.js"></script>
+    <script src="/static/js/monitoring.js"></script>
 </body>
 </html>

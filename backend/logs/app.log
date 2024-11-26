@@ -356,3 +356,504 @@ For example:
 2024-11-10 16:27:52,378 - __main__ - INFO - [app.py]; Static file routes mounted.
 2024-11-10 16:27:52,380 - __main__ - INFO - [app.py]; Router included.
 2024-11-10 16:27:52,433 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:29:07,900 - plot_utils - ERROR - Ошибка парсинга времени: strptime() argument 1 must be str, not datetime.datetime
+2024-11-10 16:29:07,900 - plot_utils - ERROR - Ошибка построения графика: Неверный формат времени
+2024-11-10 16:35:18,638 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:35:18,639 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:35:18,641 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:35:18,709 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:36:31,044 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:36:31,045 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:36:31,047 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:36:31,099 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:40:24,939 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:40:24,940 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:40:24,942 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:40:24,990 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 16:47:47,605 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 16:47:47,605 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 16:47:47,607 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 16:47:47,657 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:37:58,354 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:37:58,355 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:37:58,357 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:37:58,419 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:41:25,493 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:41:25,493 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:41:25,496 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:41:25,544 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:42:25,043 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:42:25,044 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:42:25,046 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:42:25,098 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:42:43,216 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:42:43,217 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:42:43,219 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:42:43,271 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:44:57,321 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:44:57,321 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:44:57,324 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:44:57,374 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:49:59,582 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:49:59,583 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:49:59,585 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:49:59,638 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:52:57,513 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:52:57,513 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:52:57,516 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:52:57,565 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:56:34,876 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:56:34,877 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:56:34,879 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:56:34,927 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 18:59:24,856 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 18:59:24,857 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 18:59:24,859 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 18:59:24,911 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:02:48,086 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:02:48,087 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:02:48,089 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:02:48,138 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:03:24,831 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:03:24,832 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:03:24,834 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:03:24,882 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:21:24,650 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:21:24,651 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:21:24,653 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:21:24,703 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:31:45,608 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:31:45,609 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:31:45,611 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:31:45,680 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:38:33,562 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:38:33,562 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:38:33,566 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:38:33,636 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:47:25,389 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:47:25,389 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:47:25,392 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:47:25,445 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:53:42,481 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:53:42,482 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:53:42,484 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:53:42,562 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:58:46,214 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 19:58:46,214 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 19:58:46,216 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 19:58:46,290 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 19:59:01,238 - plot_utils - ERROR - Ошибка построения графика с Bokeh: failed to validate DatetimeAxis(id='p1013', ...).ticker: expected an instance of type Ticker, got [datetime.datetime(2024, 11, 1, 17, 39, 57, 232106), datetime.datetime(2024, 11, 2, 12, 9, 29, 732203), datetime.datetime(2024, 11, 2, 12, 10, 15, 772997), datetime.datetime(2024, 11, 2, 12, 29, 37, 339291), datetime.datetime(2024, 11, 2, 12, 40, 58, 815242), datetime.datetime(2024, 11, 2, 13, 45, 31, 772634), datetime.datetime(2024, 11, 2, 14, 7, 11, 733837), datetime.datetime(2024, 11, 2, 14, 12, 2, 726473), datetime.datetime(2024, 11, 2, 14, 17, 8, 567526), datetime.datetime(2024, 11, 2, 14, 35, 9, 908455)] of type list
+2024-11-10 19:59:01,316 - plot_utils - ERROR - Ошибка построения графика с Bokeh: failed to validate DatetimeAxis(id='p1071', ...).ticker: expected an instance of type Ticker, got [datetime.datetime(2024, 11, 1, 17, 39, 57, 232106), datetime.datetime(2024, 11, 2, 12, 9, 29, 732203), datetime.datetime(2024, 11, 2, 12, 10, 15, 772997), datetime.datetime(2024, 11, 2, 12, 29, 37, 339291), datetime.datetime(2024, 11, 2, 12, 40, 58, 815242), datetime.datetime(2024, 11, 2, 13, 45, 31, 772634), datetime.datetime(2024, 11, 2, 14, 7, 11, 733837), datetime.datetime(2024, 11, 2, 14, 12, 2, 726473), datetime.datetime(2024, 11, 2, 14, 17, 8, 567526), datetime.datetime(2024, 11, 2, 14, 35, 9, 908455)] of type list
+2024-11-10 20:00:50,413 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 20:00:50,413 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 20:00:50,416 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 20:00:50,458 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 20:01:00,496 - plot_utils - ERROR - Ошибка построения графика с Bokeh: failed to validate DatetimeAxis(id='p1013', ...).ticker: expected an instance of type Ticker, got [datetime.datetime(2024, 11, 1, 17, 39, 57, 232106), datetime.datetime(2024, 11, 2, 12, 9, 29, 732203), datetime.datetime(2024, 11, 2, 12, 10, 15, 772997), datetime.datetime(2024, 11, 2, 12, 29, 37, 339291), datetime.datetime(2024, 11, 2, 12, 40, 58, 815242), datetime.datetime(2024, 11, 2, 13, 45, 31, 772634), datetime.datetime(2024, 11, 2, 14, 7, 11, 733837), datetime.datetime(2024, 11, 2, 14, 12, 2, 726473), datetime.datetime(2024, 11, 2, 14, 17, 8, 567526), datetime.datetime(2024, 11, 2, 14, 35, 9, 908455)] of type list
+2024-11-10 20:09:02,501 - plot_utils - ERROR - Ошибка построения графика с Bokeh: failed to validate DatetimeAxis(id='p1071', ...).ticker: expected an instance of type Ticker, got [datetime.datetime(2024, 11, 1, 17, 39, 57, 232106), datetime.datetime(2024, 11, 2, 12, 9, 29, 732203), datetime.datetime(2024, 11, 2, 12, 10, 15, 772997), datetime.datetime(2024, 11, 2, 12, 29, 37, 339291), datetime.datetime(2024, 11, 2, 12, 40, 58, 815242), datetime.datetime(2024, 11, 2, 13, 45, 31, 772634), datetime.datetime(2024, 11, 2, 14, 7, 11, 733837), datetime.datetime(2024, 11, 2, 14, 12, 2, 726473), datetime.datetime(2024, 11, 2, 14, 17, 8, 567526), datetime.datetime(2024, 11, 2, 14, 35, 9, 908455)] of type list
+2024-11-10 20:09:17,335 - plot_utils - ERROR - Ошибка построения графика с Bokeh: failed to validate DatetimeAxis(id='p1129', ...).ticker: expected an instance of type Ticker, got [datetime.datetime(2024, 10, 29, 13, 24, 5, 427887), datetime.datetime(2024, 10, 29, 13, 24, 6, 972789), datetime.datetime(2024, 10, 29, 13, 24, 8, 511573), datetime.datetime(2024, 10, 29, 13, 24, 10, 59457), datetime.datetime(2024, 10, 29, 13, 24, 11, 602631), datetime.datetime(2024, 10, 29, 13, 24, 13, 149642), datetime.datetime(2024, 10, 29, 13, 24, 14, 693686), datetime.datetime(2024, 10, 29, 13, 24, 16, 199092), datetime.datetime(2024, 10, 29, 13, 24, 17, 704865), datetime.datetime(2024, 10, 29, 13, 24, 19, 247836), datetime.datetime(2024, 10, 29, 13, 24, 20, 794383), datetime.datetime(2024, 10, 29, 13, 24, 22, 338444), datetime.datetime(2024, 10, 29, 13, 24, 23, 882057), datetime.datetime(2024, 10, 29, 13, 24, 25, 425469), datetime.datetime(2024, 10, 29, 13, 24, 26, 968812), datetime.datetime(2024, 10, 29, 13, 24, 28, 514791), datetime.datetime(2024, 10, 29, 13, 24, 30, 58497), datetime.datetime(2024, 10, 29, 13, 24, 31, 601720), datetime.datetime(2024, 10, 29, 13, 24, 33, 145450), datetime.datetime(2024, 10, 29, 13, 24, 34, 689271), datetime.datetime(2024, 10, 29, 13, 24, 36, 234703), datetime.datetime(2024, 10, 29, 13, 24, 37, 777974), datetime.datetime(2024, 10, 29, 13, 24, 39, 322484), datetime.datetime(2024, 10, 29, 13, 24, 40, 867718)] of type list
+2024-11-10 20:09:21,813 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 20:09:21,813 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 20:09:21,816 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 20:09:21,874 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 20:25:56,750 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 20:25:56,751 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 20:25:56,753 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 20:25:56,803 - __main__ - INFO - [app.py]; Starting server...
+2024-11-10 20:26:13,502 - plot_utils - ERROR - Ошибка построения графика: bad operand type for abs(): 'datetime.datetime'
+2024-11-10 20:27:58,993 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-10 20:27:58,994 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-10 20:27:58,996 - __main__ - INFO - [app.py]; Router included.
+2024-11-10 20:27:59,046 - __main__ - INFO - [app.py]; Starting server...
+2024-11-11 21:52:52,066 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-11 21:52:52,067 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-11 21:52:52,070 - __main__ - INFO - [app.py]; Router included.
+2024-11-11 21:52:52,151 - __main__ - INFO - [app.py]; Starting server...
+2024-11-11 23:16:11,276 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-11 23:16:11,277 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-11 23:16:11,279 - __main__ - INFO - [app.py]; Router included.
+2024-11-11 23:16:11,339 - __main__ - INFO - [app.py]; Starting server...
+2024-11-11 23:24:54,320 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-11 23:24:54,320 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-11 23:24:54,324 - __main__ - INFO - [app.py]; Router included.
+2024-11-11 23:24:54,380 - __main__ - INFO - [app.py]; Starting server...
+2024-11-11 23:26:08,949 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-11 23:26:08,949 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-11 23:26:08,952 - __main__ - INFO - [app.py]; Router included.
+2024-11-11 23:26:09,001 - __main__ - INFO - [app.py]; Starting server...
+2024-11-12 11:37:10,597 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-12 11:37:10,598 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-12 11:37:10,601 - __main__ - INFO - [app.py]; Router included.
+2024-11-12 11:37:10,674 - __main__ - INFO - [app.py]; Starting server...
+2024-11-12 11:39:25,678 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-12 11:39:25,679 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-12 11:39:25,681 - __main__ - INFO - [app.py]; Router included.
+2024-11-12 11:39:25,728 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 20:51:51,947 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 20:51:51,947 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 20:51:51,950 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 20:51:52,021 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 21:02:47,071 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 21:02:47,071 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 21:02:47,074 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 21:02:47,128 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 21:03:32,982 - plot_utils - ERROR - Ошибка построения графика: You must install lxml to use render in browser
+2024-11-13 21:04:17,116 - plot_utils - ERROR - Ошибка построения графика: Argument 'element' has incorrect type (expected lxml.etree._Element, got xml.etree.ElementTree.Element)
+2024-11-13 21:04:21,883 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 21:04:21,884 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 21:04:21,886 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 21:04:21,938 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 21:33:54,813 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 21:33:54,814 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 21:33:54,817 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 21:33:54,898 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 22:11:30,272 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 22:11:30,273 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 22:11:30,275 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 22:11:30,326 - __main__ - INFO - [app.py]; Starting server...
+2024-11-13 23:09:31,159 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-13 23:09:31,160 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-13 23:09:31,162 - __main__ - INFO - [app.py]; Router included.
+2024-11-13 23:09:31,228 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 00:33:16,177 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 00:33:16,178 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 00:33:16,180 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 00:33:16,241 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 00:33:55,200 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 00:33:55,200 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 00:33:55,203 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 00:33:55,258 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 08:55:33,204 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 08:55:33,205 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 08:55:33,207 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 08:55:33,279 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 09:37:35,288 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 09:37:35,289 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 09:37:35,291 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 09:37:35,358 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 09:53:39,549 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 09:53:39,549 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 09:53:39,552 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 09:53:39,602 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 13:38:52,337 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 13:38:52,338 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 13:38:52,340 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 13:38:52,405 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 15:09:54,660 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 15:09:54,660 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 15:09:54,663 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 15:09:54,717 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 15:13:46,543 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 15:13:46,544 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 15:13:46,546 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 15:13:46,591 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 15:44:28,137 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 15:44:28,137 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 15:44:28,140 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 15:44:28,190 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 16:44:42,055 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 16:44:42,056 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 16:44:42,058 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 16:44:42,112 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 16:48:33,388 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 16:48:33,389 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 16:48:33,392 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 16:48:33,435 - __main__ - INFO - [app.py]; Starting server...
+2024-11-14 16:57:09,555 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-14 16:57:09,556 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-14 16:57:09,558 - __main__ - INFO - [app.py]; Router included.
+2024-11-14 16:57:09,602 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:26:16,100 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:26:16,101 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:26:16,103 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:26:16,163 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:27:54,781 - plot_utils - ERROR - Ошибка построения гистограммы распределения значений: generate_title() missing 2 required positional arguments: 'start_time' and 'end_time'
+2024-11-15 00:27:57,861 - plot_utils - ERROR - Ошибка построения тепловой карты: module 'pygal' has no attribute 'Heatmap'
+2024-11-15 00:28:00,563 - plot_utils - ERROR - Ошибка построения диаграммы рассеяния: module 'pygal' has no attribute 'Scatter'
+2024-11-15 00:28:12,329 - plot_utils - ERROR - Ошибка построения гистограммы распределения значений: generate_title() missing 2 required positional arguments: 'start_time' and 'end_time'
+2024-11-15 00:30:04,960 - plot_utils - ERROR - Ошибка построения гистограммы распределения значений: generate_title() missing 2 required positional arguments: 'start_time' and 'end_time'
+2024-11-15 00:31:14,641 - plot_utils - ERROR - Ошибка построения тепловой карты: module 'pygal' has no attribute 'Heatmap'
+2024-11-15 00:35:00,660 - plot_utils - ERROR - Ошибка построения диаграммы рассеяния: module 'pygal' has no attribute 'Scatter'
+2024-11-15 00:42:25,334 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:42:25,335 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:42:25,337 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:42:25,383 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:50:24,350 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:50:24,350 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:50:24,352 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:50:24,396 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:55:39,522 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:55:39,523 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:55:39,525 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:55:39,568 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:55:58,280 - plot_utils - ERROR - Ошибка построения тепловой карты: Neither firefox and geckodriver nor a variant of chromium browser and chromedriver are available on system PATH. You can install the former with 'conda install -c conda-forge firefox geckodriver'.
+2024-11-15 00:57:31,709 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:57:31,710 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:57:31,712 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:57:31,756 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 00:57:35,450 - plot_utils - ERROR - Ошибка построения диаграммы рассеяния: Neither firefox and geckodriver nor a variant of chromium browser and chromedriver are available on system PATH. You can install the former with 'conda install -c conda-forge firefox geckodriver'.
+2024-11-15 00:58:42,378 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 00:58:42,379 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 00:58:42,381 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 00:58:42,427 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:03:26,400 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:03:26,401 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:03:26,403 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:03:26,453 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:03:43,401 - plot_utils - ERROR - Ошибка построения тепловой карты Seaborn: 'y_labels'
+2024-11-15 01:10:02,123 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:10:02,123 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:10:02,125 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:10:02,174 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:12:37,192 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:12:37,192 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:12:37,195 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:12:37,236 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:12:57,791 - plot_utils - ERROR - Ошибка построения тепловой карты Seaborn: name 'plt' is not defined
+2024-11-15 01:13:36,974 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:13:36,974 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:13:36,976 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:13:37,030 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:16:25,887 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:16:25,887 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:16:25,891 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:16:25,965 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:16:28,991 - plot_utils - ERROR - Ошибка построения тепловой карты Bokeh: unexpected attribute 'plot_width' to figure, similar attributes are outer_width, width or min_width
+2024-11-15 01:16:36,656 - plot_utils - ERROR - Ошибка построения диаграммы рассеяния Bokeh: unexpected attribute 'plot_width' to figure, similar attributes are outer_width, width or min_width
+2024-11-15 01:21:48,522 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:21:48,523 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:21:48,525 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:21:48,580 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:25:13,402 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:25:13,403 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:25:13,405 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:25:13,449 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:30:05,114 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:30:05,114 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:30:05,117 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:30:05,161 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:57:03,225 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:57:03,225 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:57:03,228 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:57:03,279 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 01:58:04,668 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 01:58:04,668 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 01:58:04,671 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 01:58:04,713 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 02:01:06,012 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 02:01:06,013 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 02:01:06,015 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 02:01:06,057 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 02:08:10,968 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 02:08:10,969 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 02:08:10,971 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 02:08:11,012 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 02:22:16,500 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 02:22:16,501 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 02:22:16,503 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 02:22:16,545 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 02:37:08,979 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 02:37:08,980 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 02:37:08,982 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 02:37:09,037 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 12:45:00,264 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 12:45:00,265 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 12:45:00,267 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 12:45:00,330 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 13:58:32,804 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\static\plots
+2024-11-15 13:58:32,805 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 13:58:32,807 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 13:58:32,859 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 13:59:22,900 - __main__ - INFO - [app.py]; Static directory created at D:\Study_and_work\Work\SfPTPfS\backend\static
+2024-11-15 13:59:22,900 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 13:59:22,902 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 13:59:22,945 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:00:07,937 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:00:07,939 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:00:07,982 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:00:58,247 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\graphics\plots
+2024-11-15 14:00:58,248 - __main__ - INFO - [app.py]; Static directory created at D:\Study_and_work\Work\SfPTPfS\backend\static
+2024-11-15 14:00:58,248 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:00:58,250 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:00:58,292 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:01:49,216 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:01:49,219 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:01:49,262 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:02:10,573 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:02:10,575 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:02:10,616 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:03:27,501 - __main__ - INFO - [app.py]; Plot directory set up at D:\Study_and_work\Work\SfPTPfS\backend\graphics\plots
+2024-11-15 14:03:27,502 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:03:27,504 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:03:27,546 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:05:12,846 - __main__ - INFO - [app.py]; Static directory created at D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-15 14:05:12,847 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:05:12,849 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:05:12,892 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:10:25,306 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-15 14:10:25,307 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:10:25,309 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:10:25,351 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 14:11:03,778 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-15 14:11:03,779 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 14:11:03,781 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 14:11:03,823 - __main__ - INFO - [app.py]; Starting server...
+2024-11-15 15:34:58,173 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-15 15:34:58,174 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-15 15:34:58,177 - __main__ - INFO - [app.py]; Router included.
+2024-11-15 15:34:58,262 - __main__ - INFO - [app.py]; Starting server...
+2024-11-16 12:04:29,061 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-16 12:04:29,062 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-16 12:04:29,065 - __main__ - INFO - [app.py]; Router included.
+2024-11-16 12:04:29,121 - __main__ - INFO - [app.py]; Starting server...
+2024-11-16 12:55:28,186 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-16 12:55:28,186 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-16 12:55:28,189 - __main__ - INFO - [app.py]; Router included.
+2024-11-16 12:55:28,240 - __main__ - INFO - [app.py]; Starting server...
+2024-11-16 13:35:52,642 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-16 13:35:52,643 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-16 13:35:52,645 - __main__ - INFO - [app.py]; Router included.
+2024-11-16 13:35:52,697 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 17:12:51,225 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 17:12:51,225 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 17:12:51,228 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 17:12:51,289 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:19:41,057 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:19:41,059 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:19:41,061 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:19:41,126 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:44:23,371 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:44:23,410 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:44:23,412 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:44:23,463 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:48:11,187 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:48:11,188 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:48:11,190 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:48:11,233 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:48:56,295 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:48:56,295 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:48:56,298 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:48:56,395 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:49:14,056 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:49:14,056 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:49:14,059 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:49:14,103 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:53:10,030 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:53:10,030 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:53:10,033 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:53:10,076 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:54:04,008 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:54:04,008 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:54:04,011 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:54:04,054 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:54:24,432 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:54:24,432 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:54:24,435 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:54:24,477 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 21:58:53,257 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 21:58:53,258 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 21:58:53,260 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 21:58:53,306 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 22:02:07,136 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 22:02:07,137 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 22:02:07,139 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 22:02:07,184 - __main__ - INFO - [app.py]; Starting server...
+2024-11-18 22:27:31,620 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-18 22:27:31,621 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-18 22:27:31,624 - __main__ - INFO - [app.py]; Router included.
+2024-11-18 22:27:31,679 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:01:15,672 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:01:15,673 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:01:15,677 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:01:15,752 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:04:33,490 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:04:33,490 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:04:33,495 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:04:33,561 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:38:58,766 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:38:58,767 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:38:58,769 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:38:58,822 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:47:58,490 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:47:58,490 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:47:58,493 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:47:58,536 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:53:22,045 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:53:22,046 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:53:22,086 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:53:22,130 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:57:49,315 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:57:49,316 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:57:49,318 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:57:49,363 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 09:58:48,687 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 09:58:48,687 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 09:58:48,689 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 09:58:48,731 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 10:04:03,525 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 10:04:03,526 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 10:04:03,528 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 10:04:03,570 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 10:25:22,454 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 10:25:22,454 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 10:25:22,457 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 10:25:22,506 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 10:44:12,512 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 10:44:12,513 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 10:44:12,515 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 10:44:12,556 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 11:01:51,234 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 11:01:51,235 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 11:01:51,237 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 11:01:51,279 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 11:04:09,166 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 11:04:09,166 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 11:04:09,169 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 11:04:09,213 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 11:06:33,722 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 11:06:33,722 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 11:06:33,724 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 11:06:33,767 - __main__ - INFO - [app.py]; Starting server...
+2024-11-19 11:08:28,376 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-19 11:08:28,377 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-19 11:08:28,379 - __main__ - INFO - [app.py]; Router included.
+2024-11-19 11:08:28,426 - __main__ - INFO - [app.py]; Starting server...
+2024-11-20 11:29:45,892 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-20 11:29:45,894 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-20 11:29:45,897 - __main__ - INFO - [app.py]; Router included.
+2024-11-20 11:29:45,999 - __main__ - INFO - [app.py]; Starting server...
+2024-11-20 11:36:04,947 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-20 11:36:04,947 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-20 11:36:04,950 - __main__ - INFO - [app.py]; Router included.
+2024-11-20 11:36:05,000 - __main__ - INFO - [app.py]; Starting server...
+2024-11-21 10:46:22,211 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-21 10:46:22,212 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-21 10:46:22,214 - __main__ - INFO - [app.py]; Router included.
+2024-11-21 10:46:22,273 - __main__ - INFO - [app.py]; Starting server...
+2024-11-21 11:13:26,604 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-21 11:13:26,604 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-21 11:13:26,607 - __main__ - INFO - [app.py]; Router included.
+2024-11-21 11:13:26,664 - __main__ - INFO - [app.py]; Starting server...
+2024-11-22 09:55:19,182 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-22 09:55:19,182 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-22 09:55:19,185 - __main__ - INFO - [app.py]; Router included.
+2024-11-22 09:55:19,243 - __main__ - INFO - [app.py]; Starting server...
+2024-11-22 12:19:25,583 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-22 12:19:25,587 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-22 12:19:25,591 - __main__ - INFO - [app.py]; Router included.
+2024-11-22 12:19:25,591 - __main__ - INFO - [app.py]; Starting server...
+2024-11-22 16:25:34,248 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-22 16:25:34,249 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-22 16:25:34,252 - __main__ - INFO - [app.py]; Router included.
+2024-11-22 16:25:34,252 - __main__ - INFO - [app.py]; Starting server...
+2024-11-23 12:39:07,771 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-23 12:39:07,771 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-23 12:39:07,774 - __main__ - INFO - [app.py]; Router included.
+2024-11-23 12:39:07,774 - __main__ - INFO - [app.py]; Starting server...
+2024-11-23 12:58:12,867 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-23 12:58:12,868 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-23 12:58:12,870 - __main__ - INFO - [app.py]; Router included.
+2024-11-23 12:58:12,871 - __main__ - INFO - [app.py]; Starting server...
+2024-11-26 08:44:21,643 - __main__ - INFO - [app.py]; Plot directory --> D:\Study_and_work\Work\SfPTPfS\backend\graphics
+2024-11-26 08:44:21,643 - __main__ - INFO - [app.py]; Static file routes mounted.
+2024-11-26 08:44:21,646 - __main__ - INFO - [app.py]; Router included.
+2024-11-26 08:44:21,646 - __main__ - INFO - [app.py]; Starting server...

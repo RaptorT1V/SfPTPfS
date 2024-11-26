@@ -1,7 +1,8 @@
+from backend.settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from typing import Optional, List, Dict
-from backend.settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
+from datetime import datetime, timedelta
 
 
 def get_db_connection():
@@ -19,7 +20,7 @@ def get_db_connection():
         return None
 
 
- # – Для оффлайн-плоттинга –
+  # – Для оффлайн-плоттинга –
 def get_data_from_table(table_name: str, parameter: str, start_time: Optional[str] = None, end_time: Optional[str] = None) -> List[Dict]:
     conn = get_db_connection()
     if not conn:
@@ -52,15 +53,19 @@ def get_data_from_table(table_name: str, parameter: str, start_time: Optional[st
         conn.close()
 
 
- # – Для real-time мониторинга –
-def get_all_data(table_name: str, parameter: str) -> List[Dict]:
+  # – Для real-time мониторинга –
+def get_all_data(table_name: str, parameter: str, start_time: datetime = None) -> List[Dict]:
     conn = get_db_connection()
     if not conn:
         return []
 
     try:
         cursor = conn.cursor(cursor_factory=RealDictCursor)
-        query = f"SELECT registered_value, {parameter} FROM {table_name} ORDER BY registered_value ASC;"
+        query = f"SELECT registered_value, {parameter} FROM {table_name} "
+        if start_time:
+            query += f" WHERE registered_value >= '{start_time}'"
+        query += "ORDER BY registered_value ASC;"
+
         cursor.execute(query)
         data = cursor.fetchall()
         return data
@@ -99,7 +104,7 @@ def get_latest_data(table_name: str, parameter: str) -> Optional[Dict]:
         conn.close()
 
 
-# – Подвязываем агрегаты и их параметры соответственно –
+  # – Подвязываем агрегаты и их параметры соответственно –
 def get_table_names():
     conn = get_db_connection()
     if not conn:
@@ -133,7 +138,7 @@ def get_column_names(table_name: str):
         conn.close()
 
 
-# – Выбор временных отрезков для построения графиков –
+  # – Выбор временных отрезков для построения графиков –
 def get_oldest_timestamp(table_name: str) -> Optional[str]:
     conn = get_db_connection()
     if not conn:

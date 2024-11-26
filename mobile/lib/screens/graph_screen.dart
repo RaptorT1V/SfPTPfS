@@ -7,14 +7,14 @@ class GraphScreen extends StatefulWidget {
 }
 
 class _GraphScreenState extends State<GraphScreen> {
-  String selectedUnit = "Unit 1"; // Пример значения, замените на ваши данные
+  String selectedUnit = "Unit 1";
   String selectedParameter = "Parameter 1";
   Duration selectedStart = Duration(minutes: 10);
   Duration selectedEnd = Duration(minutes: 0);
 
   void _updateGraph() async {
-    // Здесь реализуйте запрос к серверу с выбранным агрегатом, параметром и диапазоном времени
-    // Получение и отображение графика
+    // Тут будет осуществляться запрос к серверу с данными, которые выбрал пользователь (агрегат, параметр, время)
+    // И здесь же будет отображаться график
   }
 
   @override

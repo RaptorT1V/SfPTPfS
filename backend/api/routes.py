@@ -1,9 +1,10 @@
-from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
-from fastapi.responses import HTMLResponse, FileResponse
 from backend.data.generator import main as generator_main, stop_generator
 from backend.db.db_manager import get_all_data, get_data_from_table, get_latest_data, get_table_names, get_column_names
 from backend.api.plot_utils import plot_linear, plot_moving_average, plot_trend_line, plot_derivative, plot_spectrum, plot_histogram, plot_heatmap, plot_scatter
+from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi.responses import HTMLResponse, FileResponse
 from typing import Dict, List
+from datetime import datetime, timedelta
 from pathlib import Path
 import threading, asyncio, logging
 
@@ -16,7 +17,7 @@ generator_thread = None
 generator_running = False
 
 
- # – Генератор –
+  # – Генератор –
 def generator_wrapper():
     global generator_running
     generator_running = True
@@ -49,7 +50,7 @@ async def stop_generator_route():
         return {"status": "Generator is not running"}
 
 
- # – Пути к страничкам –
+  # – Пути к страничкам –
 @router.get("/", response_class=HTMLResponse)
 async def home_page():
     home_path = Path(__file__).parent.parent.parent / "web/templates/home.html"
@@ -71,7 +72,7 @@ async def monitoring_page():
     return HTMLResponse(content=monitoring_content, status_code=200)
 
 
- # – Данные с датчиков –
+  # – Данные с датчиков –
 @router.get("/units")
 async def get_units():
     try:
@@ -90,7 +91,7 @@ async def get_parameters(unit: str):
         raise HTTPException(status_code=500, detail="Error retrieving parameters for the selected unit.")
 
 
- # – Графики –
+  # – Графики –
 @router.get("/plot/{unit}/{parameter}/{graph_type}")
 async def get_plot(unit: str, parameter: str, graph_type: str, start_time: str, end_time: str):
     if start_time >= end_time:
@@ -120,10 +121,11 @@ async def get_plot(unit: str, parameter: str, graph_type: str, start_time: str, 
     return FileResponse(plot_path, media_type="image/svg+xml")
 
 
- # – Web –
+  # – Web –
 async def send_all_data(websocket: WebSocket, unit: str, parameter: str):
     try:
-        data = get_all_data(unit, parameter)
+        start_of_today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        data = get_all_data(unit, parameter, start_time=start_of_today)
         for entry in data:
             await websocket.send_json({
                 "time": entry["registered_value"].strftime('%Y-%m-%d %H:%M:%S'),
@@ -160,7 +162,7 @@ async def websocket_endpoint(websocket: WebSocket, unit: str, parameter: str):
         print("Client disconnected")
 
 
- # – Корневой маршрут –
+  # – Корневой маршрут –
 @router.get("/")
 async def root():
     return {"message": "Service is running!"}

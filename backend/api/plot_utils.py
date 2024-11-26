@@ -15,7 +15,7 @@ os.makedirs(PLOT_DIR, exist_ok=True)
 
 # - - - - - - - - - - - Форматирование графиков - - - - - - - - - - - #
 
-# Форматирование единиц времени на оси OX в зависимости от условий
+  # - Форматирование единиц времени на оси OX в зависимости от условий -
 def format_time_label(registered_time, start_time, end_time):
     time_span = end_time - start_time
 
@@ -29,7 +29,7 @@ def format_time_label(registered_time, start_time, end_time):
         return registered_time.strftime('%m-%d %H:%M')  # Месяц-День Часы:Минуты
 
 
-# Генерация названия графика в зависимости от условий
+  # - Генерация названия графика в зависимости от условий -
 def generate_title(plot_type, unit, parameter, start_time, end_time):
     start_date = start_time.strftime('%m-%d')
     end_date = end_time.strftime('%m-%d')
@@ -44,7 +44,7 @@ def generate_title(plot_type, unit, parameter, start_time, end_time):
         return f"{plot_type} параметра {parameter} в {unit} с {start_time.strftime('%Y-%m-%d %H:%M:%S')} по {end_time.strftime('%Y-%m-%d %H:%M:%S')}"
 
 
-# Определение макс. кол-ва делений в зависимости от единиц времени
+  # - Определение макс. кол-ва делений в зависимости от единиц времени -
 def determine_max_ticks(start_time, end_time):
     time_span = end_time - start_time
     if time_span <= timedelta(minutes=1):
@@ -57,13 +57,13 @@ def determine_max_ticks(start_time, end_time):
         return 8  # Для дней
 
 
-# Оптимальное деление шкалы OX при крупных метках (шаг)
+  # - Оптимальное деление шкалы OX при крупных метках (шаг) -
 def adjust_ticks(data_length, max_ticks):
     return max(1, data_length // max_ticks)
 
 # - - - - - - - - - - - Сами графики - - - - - - - - - - - #
 
-  # Линейный график
+  # - Линейный график -
 def plot_linear(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         if isinstance(data[0]['registered_value'], datetime):
@@ -97,7 +97,7 @@ def plot_linear(data, parameters: list, unit: str, parameter: str, format="svg")
         raise
 
 
-  # График спектра (FFT)
+  # - График спектра (FFT) -
 def plot_spectrum(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         values = [item[parameter] for item in data]
@@ -120,7 +120,7 @@ def plot_spectrum(data, parameters: list, unit: str, parameter: str, format="svg
         raise
 
 
-  # Гистограмма распределения значений
+  # - Гистограмма распределения значений -
 def plot_histogram(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         values = [item[parameter] for item in data]
@@ -143,7 +143,7 @@ def plot_histogram(data, parameters: list, unit: str, parameter: str, format="sv
         raise
 
 
-  # График производной
+  # - График производной -
 def plot_derivative(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         values = [item[parameter] for item in data]
@@ -166,7 +166,7 @@ def plot_derivative(data, parameters: list, unit: str, parameter: str, format="s
         raise
 
 
-  # Скользящее среднее (пока не является доп. опцией к линейному графику)
+  # - Скользящее среднее (пока не является доп. опцией к линейному графику) -
 def plot_moving_average(data, parameters: list, unit: str, parameter: str, window=5, format="svg"):
     try:
         values = [item[parameter] for item in data]
@@ -189,7 +189,7 @@ def plot_moving_average(data, parameters: list, unit: str, parameter: str, windo
         raise
 
 
-  # Линия тренда (пока не является доп. опцией к линейному графику)
+  # - Линия тренда (пока не является доп. опцией к линейному графику) -
 def plot_trend_line(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         values = [item[parameter] for item in data]
@@ -218,7 +218,7 @@ def plot_trend_line(data, parameters: list, unit: str, parameter: str, format="s
         raise
 
 
-  # Карта тепловых зон (пока не для нескольких параметров)
+  # - Тепловая карта (пока не для нескольких параметров) -
 def plot_heatmap(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         if not data:
@@ -230,7 +230,7 @@ def plot_heatmap(data, parameters: list, unit: str, parameter: str, format="svg"
         plt.figure(figsize=(12, 6))
         sns.heatmap(pivoted.T, cmap="YlGnBu", cbar_kws={'label': parameter})
 
-        plot_type = "Карта тепловых зон"
+        plot_type = "Тепловая карта"
         title = generate_title(plot_type, unit, parameter, data[0]['registered_value'], data[-1]['registered_value'])
         plt.title(title)
 
@@ -243,7 +243,7 @@ def plot_heatmap(data, parameters: list, unit: str, parameter: str, format="svg"
         raise
 
 
-  # Диаграмма рассеяния (пока не для нескольких параметров)
+  # - Диаграмма рассеяния (пока не для нескольких параметров) -
 def plot_scatter(data, parameters: list, unit: str, parameter: str, format="svg"):
     try:
         if not data:
