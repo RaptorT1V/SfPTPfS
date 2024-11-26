@@ -1,7 +1,20 @@
-.idea/
+# Virtual Environment
 venv/
+.venv/
+env/
+.env/
+__pycache__/
 *.pyc
+*.pyo
 *.pyd
+*.so
+*.exe
+*.dll
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and temporary files
 *.log
 .env
-__pycache__/
