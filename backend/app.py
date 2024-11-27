@@ -5,23 +5,29 @@ from fastapi.staticfiles import StaticFiles
 import logging, uvicorn
 
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("../backend/logs/app.log"),
-        logging.StreamHandler()
-    ]
-)
-
-logger = logging.getLogger(__name__)
-
 app = FastAPI(
     title="Service for Plotting Technical Parameters from Sensors",
     description="Сервис для построения графиков технических параметров с датчиков"
 )
 
 BASE_DIR = Path(__file__).resolve().parent
+
+# - Папка для логов (если ещё не создана) -
+logs_dir = BASE_DIR / "logs"
+if not logs_dir.exists():
+    logs_dir.mkdir(parents=True, exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(logs_dir / "app.log"),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
+logger.info(f"[app.py]; Logging initialized with directory --> {logs_dir.resolve()}")
 
   # - Папка для графиков (если ещё не создана) -
 plot_dir = BASE_DIR / "graphics"

@@ -1,0 +1,10 @@
+# Образ PostgreSQL
+FROM postgres:16.1
+
+# Копирование дампа базы данных в контейнер
+COPY ../backend/db/diagnostics_db.sql /docker-entrypoint-initdb.d/
+
+# Настройка переменных окружения для подключения к базе данных
+ENV POSTGRES_DB=diagnostics_db
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin

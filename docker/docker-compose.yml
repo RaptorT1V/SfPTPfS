@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile-back
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_NAME=diagnostics_db
+      - DB_USER=admin
+      - DB_PASSWORD=admin
+      - DB_PORT=5432
+
+  db:
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile-db
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=diagnostics_db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
