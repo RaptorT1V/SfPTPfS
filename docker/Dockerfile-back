@@ -31,3 +31,5 @@ COPY ./web /app/web
 # Открытие порта
 EXPOSE 8000
 
+# Команда для запуска приложения
+CMD ["python", "/app/backend/app.py"]
