@@ -1,6 +1,6 @@
-![Обложка проекта](start_page.png)
-
    <h1 align="center"> SfPTPfS: <i>Service for Plotting Technical Parameters from Sensors</i> </h1>
+   
+![Обложка проекта](start_page.png)
 
 ### _Интересный факт_ 
 > Название _"SfPTPfS"_ представляет собой **палиндром,** то есть слово, которое читается **одинаково** слева направо и справа налево, учитывая размеры букв. 
