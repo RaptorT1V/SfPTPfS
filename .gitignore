@@ -13,7 +13,9 @@ __pycache__/
 *.dll
 
 *.png
-*.jpg
+
+*.doc
+*.docx
 
 # IDE
 .idea/
